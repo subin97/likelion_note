@@ -17,3 +17,18 @@
 
 
 - Ruby언어는 Ruby on Rails 외에도 Sinatra, Ramaze 등의 프레임워크를 사용할 수 있다.  
+
+### MVC패턴
+> Ruby on Rails 외에 다른 Framework에서도 많이 사용되니 잘 이해해 놓는 것이 중요하다.
+
+- M(Model)  
+  - DataBase Management System (DB를 효율적으로 관리)  
+  - Oracle : 많이 사용되는 DBMS중 하나 -> DBA, Database Administrator  
+- V(View)  
+  - 사용자와의 상호작용을 하는 영역
+  - HTML(HyperText Markup Language), CSS, Javascript(동적 효과) -> 웹 퍼블리셔, 프론트엔드 개발자
+  - 사용자가 브라우저를 통해 접속
+- C(Controller)
+  - 기능 구현, 중간 관리자 역할
+  - Ruby 등의 프로그래밍 언어로 구현
+  - 서버 제공 -> 백엔드, 웹 개발자
