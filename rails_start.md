@@ -28,7 +28,7 @@
   - 사용자와의 상호작용을 하는 영역
   - HTML(HyperText Markup Language), CSS, Javascript(동적 효과) -> 웹 퍼블리셔, 프론트엔드 개발자
   - 사용자가 브라우저를 통해 접속
-- C(Controller)
+- C(Controller)  
   - 기능 구현, 중간 관리자 역할
   - Ruby 등의 프로그래밍 언어로 구현
   - 서버 제공 -> 백엔드, 웹 개발자
