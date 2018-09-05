@@ -1,7 +1,8 @@
 # Scaffolding
 --------------
 
-> Rails가 제공하는 기능 중 하나로, 쉽게 CRUD(Create-Read-Update-Delete)기능을 가진 애플리케이션을 만들 수 있게 하는 기능.
+> Rails가 제공하는 기능 중 하나로, 쉽게 CRUD(Create-Read-Update-Delete)기능을 가진 애플리케이션을 만들 수 있게 하는 기능.  
+view, controller, routing, model 모두 생성됨.  
 
 ### Scaffolding의 필요성
 - 일단 동작하는 애플리케이션을 만들고 싶을 때
@@ -11,6 +12,7 @@
 ### 스캐폴딩 기능(생성)
 ~~~
 rails generate scaffold name field:type [...] [options]  
+rails g scaffold book isbn:string title:string price:integer publish:string  
 -------------------------------------------------------  
 name : 모델 이름
 field : 필드 이름
@@ -18,6 +20,9 @@ type : 자료형
 options : 동작 옵션
 ~~~
 
+### css 수정
+- bootstrap cdn
+- assets/stylesheets/scaffolds.scss
 
 ### 자동 생성된 라우트 확인- resources 메서드
 - 스캐폴딩 기능으로 애플리케이션을 생성하면 config/routes.rb에 다음과 같은 코드가 추가된다.  
