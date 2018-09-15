@@ -3,10 +3,10 @@
 ### 입력 양식 생성 기초
 > form_for와 form_tag 메서드는 모두 ``<form>``태그를 생성하기 위한 메서드이다. 하지만 form_for은 특정 모델 객체를 처리할 때 특화된 메서드, form_tag는 모델과 관계 없는, 범용적인 입력 양식을 생성할 때 사용하는 메서드라는 차이점이 있다.  
 
-- form_tag : 범용적인 입력 양식 생성
+1. form_tag : 범용적인 입력 양식 생성
   - FormTag 헬퍼
-  - Form 헬퍼
-- form_for : 특정 모델에 특화된 입력 양식 생성
+  - Form 헬퍼 
+2. form_for : 특정 모델에 특화된 입력 양식 생성
   - FormTag 헬퍼
   - f.Form 헬퍼
 
@@ -36,7 +36,7 @@
   - form_tag를 쓰면 토큰 input를 자동생성해줘서 문제를 해결해준다.
 
 ### `<%= form_for %>`태그
-- 모델과 연동이 되는 form 태그로 수정에 용이하다.
+> 모델과 연동이 되는 form 태그로 수정에 용이하다.
 
  ~~~
 <%= form_for @post, url: post_create_path, method: "post" do |f| %>
